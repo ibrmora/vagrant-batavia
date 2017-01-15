@@ -7,7 +7,7 @@ Vagrant.configure(2) do |config|
   config.vm.hostname = "batavia"
   config.vm.box_check_update = true
 
-  config.vm.network "forwarded_port", guest: 8000, host: 8100
+  config.vm.network "forwarded_port", guest: 8000, host: 8000
 
   config.vm.synced_folder '.', '/vagrant', disabled: true
   config.vm.synced_folder "pybee/", "/pybee",
