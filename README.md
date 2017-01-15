@@ -1,9 +1,5 @@
 # Vagrant box for Batavia
 
-.. image:: http://pybee.org/project/projects/bridges/batavia/batavia.png
-    :width: 72px
-    :target: https://pybee.org/batavia
-
 https://github.com/pybee/batavia
 
 ## Usage    
